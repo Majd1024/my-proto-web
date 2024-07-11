@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="proto.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="proto.html">💻Programmer💻</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Majd1024" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <!-- <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a> -->
+      
+      <a href="gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>👋 Hi, I'm Majd 👋</h2>
+        <p>I'm an experienced web developer with extensive knowledge in HTML, CSS, and JavaScript. I create engaging and user-friendly websites by defining the structure with HTML, styling the layout with CSS, and implementing interactive features with JavaScript.
+            In addition, I use Node.js to develop server-side applications that are powerful and scalable. With React, I build dynamic and reusable UI components that ensure a smooth user experience. My goal is to create innovative web solutions that are both aesthetically pleasing and technically advanced.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <!-- <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a> -->
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/Majd.jpg" alt="Majd headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I am skilled in a range of programming languages and technologies crucial for modern web development. With strong expertise in HTML, CSS, and JavaScript, I excel in crafting well-structured and visually appealing websites. My proficiency extends to server-side development using Node.js, where I leverage its capabilities to build robust and scalable web applications. Additionally, I am proficient in React, enabling me to create dynamic and responsive user interfaces with reusable components. My skills allow me to deliver innovative solutions that meet both client requirements and industry standards effectively
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html.PNG" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css.PNG" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript.PNG" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node.PNG" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react.PNG" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <!-- <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testimony-headshot.webp">
+          <p>John Doe</p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+
+        <div class="text">
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sint repudiandae ratione exercitationem saepe distinctio cumque quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit, cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed veniam. Doloremque explicabo non reprehenderit expedita! Accusamus mollitia repellendus dolorum officiis libero quod deleniti cum."
+        </div>
+      </div>
+    </section> -->
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            Feel free to get in touch with me. Whether you have a question, a project in mind, or just want to say hello, I'm here to help. You can reach out to me via email. I look forward to hearing from you and discussing how we can collaborate on exciting web development projects together.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit" id="button" value="Send Email">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="proto.js"></script>
+</body>
+</html>
